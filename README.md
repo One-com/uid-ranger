@@ -6,13 +6,13 @@ A library for parsing IMAP UID ranges.
 
 ```js
 var uidRanger = require('uid-ranger');
-var uidRange = uidRanger.parse('5694:5696,5704,5712,5715:5717');
+var range = uidRanger.parse('5694:5696,5712,5715:5717');
 
-expect(uidRange.toString(), 'to equal', '5694:5696,5704,5712,5715:5717');
-expect(uidRange.toArray(), 'to equal', [5694, 5695, 5696, 5704, 5712, 5715, 5716, 5717]);
-expect(uidRange.length(), 'to equal', 8);
-expect(uidRange.get(1), 'to equal', 5694);
-expect(uidRange.get(4), 'to equal', 5712);
+expect(range.toString(), 'to equal', '5694:5696,5712,5715:5717');
+expect(range.toArray(), 'to equal', [5694, 5695, 5696, 5712, 5715, 5716, 5717]);
+expect(range.length(), 'to equal', 7);
+expect(range.get(1), 'to equal', 5694);
+expect(range.get(3), 'to equal', 5712);
 ```
 
 ### Node
