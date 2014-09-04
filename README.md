@@ -5,7 +5,7 @@ A library for parsing IMAP UID ranges.
 ## Usage
 
 ```js
-var uidRanger = require('uidRanger');
+var uidRanger = require('uid-ranger');
 var uidRange = uidRanger.parse('5694:5696,5704,5712,5715:5717');
 
 expect(uidRange.toString(), 'to equal', '5694:5696,5704,5712,5715:5717');
@@ -26,7 +26,7 @@ $ npm install uidRanger
 Then:
 
 ```js
-var uidRanger = require('uidRanger');
+var uidRanger = require('uid-ranger');
 ```
 
 ### Browser
