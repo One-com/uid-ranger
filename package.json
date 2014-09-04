@@ -1,11 +1,11 @@
 {
-  "name": "uid-ranger",
+  "name": "uidRanger",
   "version": "1.0.0",
-  "description": "Parsing IMap UID ranges",
-  "main": "index.js",
+  "description": "Parsing IMAP UID ranges",
+  "main": "uidRanger.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:One-com/uid-ranger.git"
+    "url": "git@github.com:One-com/uidRanger.git"
   },
   "keywords": [
     "IMAP"
@@ -13,10 +13,11 @@
   "author": "Sune Simonsen <sss@one.com>",
   "license": "Standard 3-clause BSD",
   "bugs": {
-    "url": "https://github.com/One-com/uid-ranger/issues"
+    "url": "https://github.com/One-com/uidRanger/issues"
   },
-  "homepage": "https://github.com/One-com/uid-ranger",
+  "homepage": "https://github.com/One-com/uidRanger",
   "devDependencies": {
-    "mocha": "1.21.4"
+    "mocha": "1.21.4",
+    "unexpected": "4.1.6"
   }
 }
