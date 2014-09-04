@@ -1,6 +1,6 @@
 {
   "name": "uidRanger",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Parsing IMAP UID ranges",
   "main": "uidRanger.js",
   "repository": {
